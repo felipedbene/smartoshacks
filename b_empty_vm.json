@@ -1,0 +1,23 @@
+{
+  "brand": "bhyve",
+  "vcpus": 4,
+  "autoboot": false,
+  "ram": 8192,
+  "resolvers": ["192.168.1.1", "1.1.1.1"],
+  "disks": [
+    {
+      "boot": true,
+      "model": "virtio",
+      "size": 80960
+    }
+  ],
+  "vnc":{"port":"5900"},
+  "nics": [
+    {
+      "nic_tag": "external",
+      "model": "virtio",
+      "ip": "dhcp",
+      "primary": 1
+    }
+  ]
+}

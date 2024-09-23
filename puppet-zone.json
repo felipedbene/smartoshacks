@@ -1,0 +1,18 @@
+{
+  "brand": "joyent",
+  "image_uuid": "1a45657e-37c9-4b50-b070-c55d90054984",
+  "alias": "puppet-server",
+  "hostname": "puppet-server",
+  "autoboot": true,
+  "dns_domain": "local",
+  "resolvers": ["192.168.1.1", "1.1.1.1"],
+  "vnc_port":5901,
+  "nics": [
+    {
+      "nic_tag": "external",
+      "ips": ["dhcp","addrconf"],
+      "primary": true
+    }
+  ],
+  "quota": 20
+}
