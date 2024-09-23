@@ -1,0 +1,22 @@
+#
+# This file was auto-generated and must be source-able by bash.
+#
+
+admin_nic=cc:28:aa:10:18:49
+admin_ip=dhcp
+headnode_default_gateway=192.168.1.1
+ag0_aggr=90:e2:ba:9d:a7:9c,90:e2:ba:9d:a7:9d
+ag0_lacp_mode=active
+ag0_mtu=9014
+external_nic=ag0
+
+dns_resolvers=192.168.1.1,1.1.1.1
+dns_domain=debene.dev
+
+ntp_hosts=0.smartos.pool.ntp.org
+compute_node_ntp_hosts=dhcp
+
+hostname=jebediah
+
+smt_enabled=true
+
